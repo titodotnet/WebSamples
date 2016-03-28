@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular 1 simple binding</title>
+    <meta charset="utf-8" />
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/custom/simplebinding.js"></script>
+</head>
+<body ng-app="sbmodule">
+    <div ng-controller="sbcontroller">
+        <div>
+            First Name : {{employee.firstName}}
+        </div>
+        <div>
+            Last Name : {{employee.lastName}}
+        </div>
+        <div>
+            Gender : {{employee.gender}}
+        </div>
+    </div>
+</body>
+</html>
