@@ -3,9 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title>Simple Angular1 binding</title>
-
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/custom/simplebinding.js"></script>
 </head>
-<body>
-
+<body ng-app="simplebindingmodule">
+    <div ng-controller="simplebindingcontroller">
+        <div>
+            First Name : {{employee.firstName}}
+        </div>
+        <div>
+            First Name : {{employee.lastName}}
+        </div>
+    </div>
 </body>
 </html>
